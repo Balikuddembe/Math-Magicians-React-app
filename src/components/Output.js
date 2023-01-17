@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Output(props) {
+const Output = (props) => {
   const { calculation } = props;
   const { total, next, operation } = calculation;
   return (
@@ -9,7 +9,7 @@ function Output(props) {
       {`${total || ''} ${operation || ''} ${next || ''}`}
     </div>
   );
-}
+};
 
-Output.propTypes = { calculation: PropTypes.func.isRequired };
+Output.propTypes = { calculation: PropTypes.shape.isRequired };
 export default Output;

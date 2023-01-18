@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
-    <nav className="nav-container">
+    <nav className="nav-bar">
       <h1 className="header">Math Magicians</h1>
       <div className="nav-links">
         <li><Link to="/">Home</Link></li>

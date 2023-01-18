@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Quote = () => (
-  <div className="quote-container">
+  <div className="quote_container">
     <p className="quote">
       Mathematics is not about numbers, equations,
       computations, or algorithms: it is about understanding.

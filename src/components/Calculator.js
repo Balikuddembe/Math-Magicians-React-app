@@ -17,8 +17,11 @@ const Calculator = () => {
 
   return (
     <div className="calculator">
-      <Output calculation={calculation} />
-      <Buttons handleClick={handleClick} />
+      <h1 className="calculator-title">Let&apos;s do some math!</h1>
+      <div>
+        <Output calculation={calculation} />
+        <Buttons handleClick={handleClick} />
+      </div>
     </div>
   );
 };
